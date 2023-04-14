@@ -1,4 +1,4 @@
-import { diagnoseFile, Issue, LibraryIssue, MinecraftFolder, MinecraftLocation, Version } from '@xmcl/core'
+import { diagnoseFile, Issue, LibraryIssue, MinecraftFolder, MinecraftLocation, Version } from '@powerm1nt/xmcl-core'
 import { InstallProfile, resolveProcessors, PostProcessor } from './profile'
 
 export type InstallIssues = ProcessorIssue | LibraryIssue

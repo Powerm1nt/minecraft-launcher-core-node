@@ -1,5 +1,5 @@
 /**
- * @module @xmcl/unzip
+ * @module @powerm1nt/xmcl-unzip
  */
 import { Readable } from 'stream'
 import { Entry, fromBuffer, fromFd, open as yopen, ZipFile, ZipFileOptions, Options } from 'yauzl'

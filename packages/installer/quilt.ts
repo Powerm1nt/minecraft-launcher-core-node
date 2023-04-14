@@ -1,4 +1,4 @@
-import { MinecraftFolder, MinecraftLocation, Version } from '@xmcl/core'
+import { MinecraftFolder, MinecraftLocation, Version } from '@powerm1nt/xmcl-core'
 import { writeFile } from 'fs/promises'
 import { Dispatcher, request } from 'undici'
 import { ensureFile } from './utils'

@@ -1,5 +1,5 @@
 import { BaseTask, CancelledError, TaskState } from '@xmcl/task'
-import { openEntryReadStream } from '@xmcl/unzip'
+import { openEntryReadStream } from '@powerm1nt/xmcl-unzip'
 import { createWriteStream } from 'fs'
 import { join } from 'path'
 import { Readable, Writable } from 'stream'

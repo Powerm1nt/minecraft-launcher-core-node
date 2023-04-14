@@ -1,6 +1,6 @@
-import { LibraryInfo, MinecraftFolder, MinecraftLocation, Version as VersionJson } from '@xmcl/core'
+import { LibraryInfo, MinecraftFolder, MinecraftLocation, Version as VersionJson } from '@powerm1nt/xmcl-core'
 import { AbortableTask, CancelledError, task } from '@xmcl/task'
-import { open, readEntry, walkEntriesGenerator } from '@xmcl/unzip'
+import { open, readEntry, walkEntriesGenerator } from '@powerm1nt/xmcl-unzip'
 import { spawn } from 'child_process'
 import { readFile } from 'fs/promises'
 import { delimiter, dirname } from 'path'

@@ -1,8 +1,8 @@
 # Launcher Core Module
 
-[![npm version](https://img.shields.io/npm/v/@xmcl/core.svg)](https://www.npmjs.com/package/@xmcl/core)
-[![Downloads](https://img.shields.io/npm/dm/@xmcl/core.svg)](https://npmjs.com/@xmcl/core)
-[![Install size](https://packagephobia.now.sh/badge?p=@xmcl/core)](https://packagephobia.now.sh/result?p=@xmcl/core)
+[![npm version](https://img.shields.io/npm/v/@powerm1nt/xmcl-core.svg)](https://www.npmjs.com/package/@powerm1nt/xmcl-core)
+[![Downloads](https://img.shields.io/npm/dm/@powerm1nt/xmcl-core.svg)](https://npmjs.com/@powerm1nt/xmcl-core)
+[![Install size](https://packagephobia.now.sh/badge?p=@powerm1nt/xmcl-core)](https://packagephobia.now.sh/result?p=@powerm1nt/xmcl-core)
 [![npm](https://img.shields.io/npm/l/@xmcl/minecraft-launcher-core.svg)](https://github.com/voxelum/minecraft-launcher-core-node/blob/master/LICENSE)
 [![Build Status](https://github.com/voxelum/minecraft-launcher-core-node/workflows/Build/badge.svg)](https://github.com/Voxelum/minecraft-launcher-core-node/actions?query=workflow%3ABuild)
 
@@ -15,7 +15,7 @@ Provide the core function to parse Minecraft version and launch.
 Parse minecraft version as a resolved version, which is used for launching process. You can also read version info from it if you want.
 
 ```ts
-import { Version } from "@xmcl/core";
+import { Version } from "@powerm1nt/xmcl-core";
 const minecraftLocation: string;
 const minecraftVersionId: string;
 
@@ -27,7 +27,7 @@ const resolvedVersion: ResolvedVersion = await Version.parse(minecraftLocation, 
 Get the report of the version. It can check if version missing assets/libraries.
 
 ```ts
-import { MinecraftLocation, diagnose, ResolvedVersion } from "@xmcl/core";
+import { MinecraftLocation, diagnose, ResolvedVersion } from "@powerm1nt/xmcl-core";
 
 const minecraft: MinecraftLocation;
 const version: string; // version string like 1.13
@@ -54,7 +54,7 @@ for (let issue of issues) {
 Launch minecraft from a version:
 
 ```ts
-import { launch } from "@xmcl/core"
+import { launch } from "@powerm1nt/xmcl-core"
 const version: string; // full version id, like 1.13, or your forge version like, 1.13-forge-<someForgeVersion>
 const javaPath: string; // java executable path
 const gamePath: string; // .minecraft path

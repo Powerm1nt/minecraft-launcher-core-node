@@ -4,7 +4,7 @@
  * and the {@link launch} function to launch the game.
  *
  * @packageDocumentation
- * @module @xmcl/core
+ * @module @powerm1nt/xmcl-core
  */
 
 export * from './launch'

@@ -1,4 +1,4 @@
-import { MinecraftFolder, MinecraftLocation } from '@xmcl/core'
+import { MinecraftFolder, MinecraftLocation } from '@powerm1nt/xmcl-core'
 import { Task, task } from '@xmcl/task'
 import { readFile, writeFile } from 'fs/promises'
 import { join } from 'path'

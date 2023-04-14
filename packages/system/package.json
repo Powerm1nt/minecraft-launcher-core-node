@@ -22,7 +22,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@xmcl/unzip": "workspace:^*",
+    "@powerm1nt/xmcl-unzip": "workspace:^*",
     "jszip": "^3.10.1"
   },
   "repository": {

@@ -1,7 +1,7 @@
 /**
  * @module @xmcl/system
  */
-import { open, readEntry, readAllEntries } from '@xmcl/unzip'
+import { open, readEntry, readAllEntries } from '@powerm1nt/xmcl-unzip'
 import { access, stat, writeFile, readFile, readdir } from 'fs/promises'
 import { join, sep } from 'path'
 import { FileSystem } from './system'

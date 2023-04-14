@@ -1,4 +1,4 @@
-import { MinecraftFolder, MinecraftLocation, ResolvedLibrary, ResolvedVersion, Version, Version as VersionJson } from '@xmcl/core'
+import { MinecraftFolder, MinecraftLocation, ResolvedLibrary, ResolvedVersion, Version, Version as VersionJson } from '@powerm1nt/xmcl-core'
 import { ChecksumValidatorOptions, DownloadBaseOptions, JsonValidator, Validator } from '@xmcl/file-transfer'
 import { task, Task } from '@xmcl/task'
 import { readFile } from 'fs/promises'

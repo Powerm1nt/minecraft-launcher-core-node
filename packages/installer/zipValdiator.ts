@@ -1,6 +1,6 @@
 import { ValidationError, Validator } from '@xmcl/file-transfer'
 import { FileHandle } from 'fs/promises'
-import { open } from '@xmcl/unzip'
+import { open } from '@powerm1nt/xmcl-unzip'
 
 export class ZipValidator implements Validator {
   async validate(fd: FileHandle, destination: string, url: string): Promise<void> {

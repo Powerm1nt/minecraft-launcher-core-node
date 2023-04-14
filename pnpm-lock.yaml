@@ -102,12 +102,12 @@ importers:
     specifiers:
       '@types/node': ~18.15.11
       '@xmcl/eslint-config': workspace:^*
-      '@xmcl/unzip': workspace:^*
+      '@powerm1nt/xmcl-unzip': workspace:^*
       esbuild: ^0.17.14
       eslint: ^8.37.0
       typescript: ^5.0.3
     dependencies:
-      '@xmcl/unzip': link:../unzip
+      '@powerm1nt/xmcl-unzip': link:../unzip
     devDependencies:
       '@types/node': 18.15.11
       '@xmcl/eslint-config': link:../eslint-config
@@ -222,12 +222,12 @@ importers:
       '@types/node': ~18.15.11
       '@types/yauzl': ^2.10.0
       '@xmcl/asm': workspace:^*
-      '@xmcl/core': workspace:^*
+      '@powerm1nt/xmcl-core': workspace:^*
       '@xmcl/eslint-config': workspace:^*
       '@xmcl/file-transfer': workspace:^*
       '@xmcl/forge-site-parser': workspace:^*
       '@xmcl/task': workspace:^*
-      '@xmcl/unzip': workspace:^*
+      '@powerm1nt/xmcl-unzip': workspace:^*
       esbuild: ^0.17.14
       eslint: ^8.37.0
       nock: ^13.3.0
@@ -236,11 +236,11 @@ importers:
       yauzl: ^2.10.0
     dependencies:
       '@xmcl/asm': link:../asm
-      '@xmcl/core': link:../core
+      '@powerm1nt/xmcl-core': link:../core
       '@xmcl/file-transfer': link:../file-transfer
       '@xmcl/forge-site-parser': link:../forge-site-parser
       '@xmcl/task': link:../task
-      '@xmcl/unzip': link:../unzip
+      '@powerm1nt/xmcl-unzip': link:../unzip
       undici: 5.21.2
       yauzl: 2.10.0
     devDependencies:
@@ -366,13 +366,13 @@ importers:
       '@types/node': ~18.15.11
       '@types/yauzl': ^2.10.0
       '@xmcl/eslint-config': workspace:^*
-      '@xmcl/unzip': workspace:^*
+      '@powerm1nt/xmcl-unzip': workspace:^*
       esbuild: ^0.17.14
       eslint: ^8.37.0
       jszip: ^3.10.1
       typescript: ^5.0.3
     dependencies:
-      '@xmcl/unzip': link:../unzip
+      '@powerm1nt/xmcl-unzip': link:../unzip
       jszip: 3.10.1
     devDependencies:
       '@types/node': 18.15.11

@@ -1,4 +1,4 @@
-import { getPlatform, Platform } from '@xmcl/core'
+import { getPlatform, Platform } from '@powerm1nt/xmcl-core'
 import { Task, task } from '@xmcl/task'
 import { exec } from 'child_process'
 import { unlink } from 'fs/promises'

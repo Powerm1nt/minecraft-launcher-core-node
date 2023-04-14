@@ -1,4 +1,4 @@
-import { open, openEntryReadStream, walkEntriesGenerator } from '@xmcl/unzip'
+import { open, openEntryReadStream, walkEntriesGenerator } from '@powerm1nt/xmcl-unzip'
 import { ChildProcess, SpawnOptions, spawn } from 'child_process'
 import { EventEmitter } from 'events'
 import { createWriteStream, existsSync } from 'fs'

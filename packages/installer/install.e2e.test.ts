@@ -1,4 +1,4 @@
-import { diagnose, MinecraftFolder, MinecraftLocation, Version } from '@xmcl/core'
+import { diagnose, MinecraftFolder, MinecraftLocation, Version } from '@powerm1nt/xmcl-core'
 import { existsSync } from 'fs'
 import { join } from 'path'
 import { installForge } from './forge'

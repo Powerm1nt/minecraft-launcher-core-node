@@ -1,4 +1,4 @@
-import { getPlatform, Platform } from '@xmcl/core'
+import { getPlatform, Platform } from '@powerm1nt/xmcl-core'
 import { ChecksumValidatorOptions, DownloadBaseOptions, DownloadOptions, Validator } from '@xmcl/file-transfer'
 import { Task, task } from '@xmcl/task'
 import { link } from 'fs/promises'

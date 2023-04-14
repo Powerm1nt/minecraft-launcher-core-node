@@ -1,7 +1,7 @@
 import { ClassReader, ClassVisitor, Opcodes } from '@xmcl/asm'
-import { MinecraftFolder, MinecraftLocation, Version } from '@xmcl/core'
+import { MinecraftFolder, MinecraftLocation, Version } from '@powerm1nt/xmcl-core'
 import { task } from '@xmcl/task'
-import { getEntriesRecord, open, readAllEntries, readEntry } from '@xmcl/unzip'
+import { getEntriesRecord, open, readAllEntries, readEntry } from '@powerm1nt/xmcl-unzip'
 import { writeFile } from 'fs/promises'
 import { ensureFile, InstallOptions, SpawnJavaOptions, spawnProcess } from './utils'
 

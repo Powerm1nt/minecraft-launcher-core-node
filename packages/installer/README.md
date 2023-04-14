@@ -16,7 +16,7 @@ Fully install vanilla minecraft client including assets and libs.
 
 ```ts
 import { getVersionList, MinecraftVersion, install } from "@xmcl/installer";
-import { MinecraftLocation } from "@xmcl/core";
+import { MinecraftLocation } from "@powerm1nt/xmcl-core";
 
 const minecraft: MinecraftLocation;
 const list: MinecraftVersion[] = (await getVersionList()).versions;
@@ -28,7 +28,7 @@ Just install libraries:
 
 ```ts
 import { installLibraries } from "@xmcl/installer";
-import { ResolvedVersion, MinecraftLocation, Version } from "@xmcl/core";
+import { ResolvedVersion, MinecraftLocation, Version } from "@powerm1nt/xmcl-core";
 
 const minecraft: MinecraftLocation;
 const version: string; // version string like 1.13
@@ -40,7 +40,7 @@ Just install assets:
 
 ```ts
 import { installAssets } from "@xmcl/installer";
-import { MinecraftLocation, ResolvedVersion, Version } from "@xmcl/core";
+import { MinecraftLocation, ResolvedVersion, Version } from "@powerm1nt/xmcl-core";
 
 const minecraft: MinecraftLocation;
 const version: string; // version string like 1.13
@@ -52,7 +52,7 @@ Just ensure all assets and libraries are installed:
 
 ```ts
 import { installDependencies } from "@xmcl/installer";
-import { MinecraftLocation, ResolvedVersion, Version } from "@xmcl/core";
+import { MinecraftLocation, ResolvedVersion, Version } from "@powerm1nt/xmcl-core";
 
 const minecraft: MinecraftLocation;
 const version: string; // version string like 1.13
@@ -142,7 +142,7 @@ Or you can use your own identifier like uuid:
 // you customize function to make task to a user reacable string to display in UI
 declare function getTaskName(task: Task<any>): string;
 
-function runTask(rootTask: Task<any>) {
+async function runTask(rootTask: Task<any>) {
     // your own id for this root task
     const uid = uuid();
     await rootTask.startAndWait({
@@ -208,7 +208,7 @@ Get the forge version info and install forge from it.
 
 ```ts
 import { installForge, getForgeVersionList, ForgeVersionList, ForgeVersion } from "@xmcl/installer";
-import { MinecraftLocation } from "@xmcl/core";
+import { MinecraftLocation } from "@powerm1nt/xmcl-core";
 
 const list: ForgeVersionList = await getForgeVersionList();
 const minecraftLocation: MinecraftLocation;

@@ -20,7 +20,7 @@
 #### Features
 
 - feat: Add bytebuffer package ([8d99df59f6bb28d1e1cfb2bdc3a1230b3c6491a2](https://github.com/voxelum/minecraft-launcher-core-node/commit/8d99df59f6bb28d1e1cfb2bdc3a1230b3c6491a2))
-### @xmcl/unzip@2.1.0
+### @powerm1nt/xmcl-unzip@2.1.0
 #### Features
 
 - feat: Support filtering entries in a flexiable way ([7e989573442e467e0d2ec1d2f59826e89136ca95](https://github.com/voxelum/minecraft-launcher-core-node/commit/7e989573442e467e0d2ec1d2f59826e89136ca95))
@@ -73,13 +73,13 @@
 - BREAKING CHANGE: remove the usage of long ([b6c98c552c242d95edac90e248231a873ab380a4](https://github.com/voxelum/minecraft-launcher-core-node/commit/b6c98c552c242d95edac90e248231a873ab380a4))
 - Dependency @xmcl/bytebuffer bump **patch**
 - Dependency @xmcl/nbt bump **patch**
-### @xmcl/core@2.11.0
+### @powerm1nt/xmcl-core@2.11.0
 #### Features
 
 - feat: allow to change checksum function ([47fc495ba7518b9a635f3d1c37eda4f91ebb71f8](https://github.com/voxelum/minecraft-launcher-core-node/commit/47fc495ba7518b9a635f3d1c37eda4f91ebb71f8))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/system@2.2.4
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/game-data@1.2.1
 - Dependency @xmcl/nbt bump **patch**
 - Dependency @xmcl/system bump **patch**
@@ -104,8 +104,8 @@
 - fix: Should catpure url from download error ([386705537ae518fab91e9890ff513a24def3d196](https://github.com/voxelum/minecraft-launcher-core-node/commit/386705537ae518fab91e9890ff513a24def3d196))
 - fix: Should capture request error ([1d86856904d244a266404b6b64179c43f4035778](https://github.com/voxelum/minecraft-launcher-core-node/commit/1d86856904d244a266404b6b64179c43f4035778))
 - Dependency @xmcl/asm bump **patch**
-- Dependency @xmcl/unzip bump **patch**
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/download-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/mod-parser@3.3.1
@@ -131,7 +131,7 @@
 #### Bug Fixes
 
 - fix: wrong listen multicast addr ([0dc9d85c6bc38b87d606ba450e916d811d01b84d](https://github.com/voxelum/minecraft-launcher-core-node/commit/0dc9d85c6bc38b87d606ba450e916d811d01b84d))
-### @xmcl/core@2.10.1
+### @powerm1nt/xmcl-core@2.10.1
 #### Bug Fixes
 
 - fix: compatible with unofficial version json ([5cc7e3bdfb7255c3ed6fef6546cf31f054bb69de](https://github.com/voxelum/minecraft-launcher-core-node/commit/5cc7e3bdfb7255c3ed6fef6546cf31f054bb69de))
@@ -183,7 +183,7 @@
 - fix: add enoent to common error ([c9ad601a71ec6d696660670bc6819f02e9bcfb4a](https://github.com/voxelum/minecraft-launcher-core-node/commit/c9ad601a71ec6d696660670bc6819f02e9bcfb4a))
 - fix: prevent link failed to cause install failed ([0ff8d0073da1a0cb39fdbda7f38665855bf756d4](https://github.com/voxelum/minecraft-launcher-core-node/commit/0ff8d0073da1a0cb39fdbda7f38665855bf756d4))
 - fix: return java full version ([4a9587c5033ea8fa649afec2e58210781af2b335](https://github.com/voxelum/minecraft-launcher-core-node/commit/4a9587c5033ea8fa649afec2e58210781af2b335))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 6.0.0
@@ -191,7 +191,7 @@
 #### Bug Fixes
 
 - fix(asm): don't check max version ([b5a5e6b5ef9a18af728e47d326a9767e00713263](https://github.com/voxelum/minecraft-launcher-core-node/commit/b5a5e6b5ef9a18af728e47d326a9767e00713263))
-### @xmcl/core@2.10.0
+### @powerm1nt/xmcl-core@2.10.0
 #### Features
 
 - feat(core): compatible with some thirdparty launcher version json ([c49fd5675a75d3c8d22a76c4074bee44eb063a9f](https://github.com/voxelum/minecraft-launcher-core-node/commit/c49fd5675a75d3c8d22a76c4074bee44eb063a9f))
@@ -242,7 +242,7 @@
 - fix(installer): correctly link java ([daf601bf54e715c726382345b786ca9333d1261d](https://github.com/voxelum/minecraft-launcher-core-node/commit/daf601bf54e715c726382345b786ca9333d1261d))
 - fix(installer): not abortable during fetching ([2595cceb90cc1d8b94ad326fb389d497e5293864](https://github.com/voxelum/minecraft-launcher-core-node/commit/2595cceb90cc1d8b94ad326fb389d497e5293864))
 - Dependency @xmcl/asm bump **patch**
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/mod-parser@3.2.1
 #### Bug Fixes
@@ -253,7 +253,7 @@
 
 
 ## 5.3.0
-### @xmcl/core@2.9.0
+### @powerm1nt/xmcl-core@2.9.0
 #### Features
 
 - feat: add options API for spawn function ([990fd7cd21d92020271f2c667e3cf3b8c6c1f40e](https://github.com/voxelum/minecraft-launcher-core-node/commit/990fd7cd21d92020271f2c667e3cf3b8c6c1f40e))
@@ -261,7 +261,7 @@
 #### Features
 
 - feat: add options API for spawn function ([990fd7cd21d92020271f2c667e3cf3b8c6c1f40e](https://github.com/voxelum/minecraft-launcher-core-node/commit/990fd7cd21d92020271f2c667e3cf3b8c6c1f40e))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 5.2.0
@@ -288,7 +288,7 @@
 
 - fix(client): use 1.14.4 protocol as default ([5cdfe3a9749921c9ac648bc99f918e11ec1d76c1](https://github.com/voxelum/minecraft-launcher-core-node/commit/5cdfe3a9749921c9ac648bc99f918e11ec1d76c1))
 - fix(client): should not destroy sock for reconnect ([ae5d771cdb11c1871989b9fb3d476ee7a00d266b](https://github.com/voxelum/minecraft-launcher-core-node/commit/ae5d771cdb11c1871989b9fb3d476ee7a00d266b))
-### @xmcl/core@2.8.0
+### @powerm1nt/xmcl-core@2.8.0
 #### Features
 
 - feat(core): support parse javaVersion in version json ([9271499d2c64e17ab4c3e0f4f7eb0ceb9ccd2738](https://github.com/voxelum/minecraft-launcher-core-node/commit/9271499d2c64e17ab4c3e0f4f7eb0ceb9ccd2738))
@@ -316,7 +316,7 @@
 - fix(installer): readable fabric version id ([e824d0ef90d2ccf4b9cf0e17174e39d04ed4ac9f](https://github.com/voxelum/minecraft-launcher-core-node/commit/e824d0ef90d2ccf4b9cf0e17174e39d04ed4ac9f))
 - fix(installer): not fail during fallback ([c4e436e911d7fe7e70e019d8ca6fafe19c8caffb](https://github.com/voxelum/minecraft-launcher-core-node/commit/c4e436e911d7fe7e70e019d8ca6fafe19c8caffb))
 - fix(installer): handle redirect 3xx ([67bd82e194a0a8f551192a2e4a53ef9fbea735b3](https://github.com/voxelum/minecraft-launcher-core-node/commit/67bd82e194a0a8f551192a2e4a53ef9fbea735b3))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 
 
@@ -336,7 +336,7 @@
 #### Features
 
 - feat(client): add lan client/server ([75ed2efde78f584e56d22135fa896c48e90bf3b4](https://github.com/voxelum/minecraft-launcher-core-node/commit/75ed2efde78f584e56d22135fa896c48e90bf3b4))
-### @xmcl/core@2.7.0
+### @powerm1nt/xmcl-core@2.7.0
 #### Features
 
 - feat(launch): support forge 1.17 jvm args ([440462f593c20f8a7f677f3f8e0ce060888e4967](https://github.com/voxelum/minecraft-launcher-core-node/commit/440462f593c20f8a7f677f3f8e0ce060888e4967))
@@ -361,7 +361,7 @@
 - fix(installer): support 308 redirect ([bb4e158b63d959b8f088dd10bb12ce704292a3c4](https://github.com/voxelum/minecraft-launcher-core-node/commit/bb4e158b63d959b8f088dd10bb12ce704292a3c4))
 - fix(installer): correctly install intermediary for fabric ([1209e3b15d796394e4a0a4c912a8e93b1c45241c](https://github.com/voxelum/minecraft-launcher-core-node/commit/1209e3b15d796394e4a0a4c912a8e93b1c45241c))
 - Dependency @xmcl/asm bump **patch**
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/mod-parser@3.1.1
 - Dependency @xmcl/asm bump **patch**
@@ -378,7 +378,7 @@
 
 
 ## 4.3.2
-### @xmcl/core@2.6.2
+### @powerm1nt/xmcl-core@2.6.2
 #### Bug Fixes
 
 - fix(core): should not fail gen cmd if there is no assets ([b7515545778db58dd7c6f58b0efb85e48ce7eb08](https://github.com/voxelum/minecraft-launcher-core-node/commit/b7515545778db58dd7c6f58b0efb85e48ce7eb08))
@@ -393,7 +393,7 @@
 - fix(installer): installResolvedLibraries not return promise ([09cef121eb50f1bfe483f9590f2c7b9ef9b3f6ae](https://github.com/voxelum/minecraft-launcher-core-node/commit/09cef121eb50f1bfe483f9590f2c7b9ef9b3f6ae))
 - fix(installer): enrich checksum not match error ([af31290f21c571302ed11e7653ca82caa99d3a78](https://github.com/voxelum/minecraft-launcher-core-node/commit/af31290f21c571302ed11e7653ca82caa99d3a78))
 - fix(installer): emit the error message on multi-error ([15adbabda4fc3f2d6a44f0f0a3c62cd41b21b511](https://github.com/voxelum/minecraft-launcher-core-node/commit/15adbabda4fc3f2d6a44f0f0a3c62cd41b21b511))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 4.3.1
@@ -430,7 +430,7 @@
 
 
 ## 4.2.2
-### @xmcl/core@2.6.1
+### @powerm1nt/xmcl-core@2.6.1
 #### Bug Fixes
 
 - fix(core): be able to resolve mixed verion inherit ([47861a72bcc53bb32e08b32881f5d210b1d15217](https://github.com/voxelum/minecraft-launcher-core-node/commit/47861a72bcc53bb32e08b32881f5d210b1d15217))
@@ -439,7 +439,7 @@
 
 - fix(forge-site-parser): parse new forge page ([0d64120b5501228cd8b533bd06cad9add9972ee0](https://github.com/voxelum/minecraft-launcher-core-node/commit/0d64120b5501228cd8b533bd06cad9add9972ee0))
 ### @xmcl/installer@3.1.2
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/forge-site-parser bump **patch**
 
 
@@ -451,7 +451,7 @@
 
 
 ## 4.2.0
-### @xmcl/core@2.6.0
+### @powerm1nt/xmcl-core@2.6.0
 #### Features
 
 - feat(core): support extra classpath to launch client ([5c9c966356d0bd27e812dfd76dba211695102f97](https://github.com/voxelum/minecraft-launcher-core-node/commit/5c9c966356d0bd27e812dfd76dba211695102f97))
@@ -462,7 +462,7 @@
 #### Bug Fixes
 
 - fix: don't fail if optifine dont have launchwrapper ([7699c397f12e49c649ac6bd0468832f7008113c4](https://github.com/voxelum/minecraft-launcher-core-node/commit/7699c397f12e49c649ac6bd0468832f7008113c4))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 4.1.0
@@ -477,7 +477,7 @@
 #### Features
 
 - feat(asm): add asm to the lib ([3b77a03ea297ab850e61b4d37ae12dcb8f9634be](https://github.com/voxelum/minecraft-launcher-core-node/commit/3b77a03ea297ab850e61b4d37ae12dcb8f9634be))
-### @xmcl/unzip@2.0.0
+### @powerm1nt/xmcl-unzip@2.0.0
 #### BREAKING CHANGES
 
 - BREAKING CHANGE(unzip): rewrite module into more lightweight form ([03a6e319f826a7de23bf0359d06dc928c67b993b](https://github.com/voxelum/minecraft-launcher-core-node/commit/03a6e319f826a7de23bf0359d06dc928c67b993b))
@@ -489,27 +489,27 @@
 #### Bug Fixes
 
 - fix(user): make the auth module build uuid correctly ([0859f0abf00dc8e5b936ff817b4fd8600a66b97b](https://github.com/voxelum/minecraft-launcher-core-node/commit/0859f0abf00dc8e5b936ff817b4fd8600a66b97b))
-### @xmcl/core@2.5.0
+### @powerm1nt/xmcl-core@2.5.0
 #### Features
 
 - feat(core): add diagnose to the core module ([40f6ee3f0e87298013c17a27eae48aa4b27d460f](https://github.com/voxelum/minecraft-launcher-core-node/commit/40f6ee3f0e87298013c17a27eae48aa4b27d460f))
 #### Bug Fixes
 
 - fix: adapt to the new task and unzip module ([94ed7f360ab92d79a3c580a05fc6018ac93de88d](https://github.com/voxelum/minecraft-launcher-core-node/commit/94ed7f360ab92d79a3c580a05fc6018ac93de88d))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@3.0.0
 #### BREAKING CHANGES
 
 - BREAKING CHANGE(installer): rewrite to make it easy treeshaking ([650433f8a0aac42272017aaf34e0516d724ca9d7](https://github.com/voxelum/minecraft-launcher-core-node/commit/650433f8a0aac42272017aaf34e0516d724ca9d7))
 - Dependency @xmcl/asm bump **patch**
-- Dependency @xmcl/unzip bump **patch**
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/system@2.2.1
 #### Bug Fixes
 
 - fix: adapt to the new task and unzip module ([94ed7f360ab92d79a3c580a05fc6018ac93de88d](https://github.com/voxelum/minecraft-launcher-core-node/commit/94ed7f360ab92d79a3c580a05fc6018ac93de88d))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@3.0.0
 #### BREAKING CHANGES
 
@@ -651,7 +651,7 @@
 
 
 ## 3.5.0
-### @xmcl/core@2.4.0
+### @powerm1nt/xmcl-core@2.4.0
 #### Features
 
 - feat: custom launch server executable option ([0df6c44e85cb98e41ecd33f06e4a1bb5faf6d145](https://github.com/voxelum/minecraft-launcher-core-node/commit/0df6c44e85cb98e41ecd33f06e4a1bb5faf6d145))
@@ -667,7 +667,7 @@
 
 - fix: allow retry on EPROTO & ECANCELED ([f4a103cf43f4dd84e1e2bbb91d8dd67905b5e289](https://github.com/voxelum/minecraft-launcher-core-node/commit/f4a103cf43f4dd84e1e2bbb91d8dd67905b5e289))
 - fix: just install jar for server ([9f63f2f987baa3c4a75fb2ad9c32998e3072745b](https://github.com/voxelum/minecraft-launcher-core-node/commit/9f63f2f987baa3c4a75fb2ad9c32998e3072745b))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/mod-parser@2.0.7
 - Dependency @xmcl/system bump **patch**
 ### @xmcl/resourcepack@1.0.13
@@ -682,12 +682,12 @@
 
 
 ## 3.4.1
-### @xmcl/core@2.3.1
+### @powerm1nt/xmcl-core@2.3.1
 #### Bug Fixes
 
 - fix: wrong native sha validation ([2ca1a3c6a8653a2a90495f895f4838edc0a1209a](https://github.com/voxelum/minecraft-launcher-core-node/commit/2ca1a3c6a8653a2a90495f895f4838edc0a1209a))
 ### @xmcl/installer@2.9.1
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 3.4.0
@@ -711,7 +711,7 @@
 
 
 ## 3.3.0
-### @xmcl/core@2.3.0
+### @powerm1nt/xmcl-core@2.3.0
 #### Features
 
 - feat(core): support `resolve` for non-standard version json ([2ed83ab62d5a12261460e57de74cb119982388b2](https://github.com/voxelum/minecraft-launcher-core-node/commit/2ed83ab62d5a12261460e57de74cb119982388b2))
@@ -731,7 +731,7 @@
 #### Bug Fixes
 
 - fix: return the installed optifine version ([95c681a26c2e9ab174005468d045586e0c37f310](https://github.com/voxelum/minecraft-launcher-core-node/commit/95c681a26c2e9ab174005468d045586e0c37f310))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/forge-site-parser bump **patch**
 - Dependency @xmcl/task bump **patch**
 
@@ -778,7 +778,7 @@
 
 
 ## 3.1.0
-### @xmcl/core@2.2.0
+### @powerm1nt/xmcl-core@2.2.0
 #### Features
 
 - feat: support legacy Minecraft assets link ([783daa03310f59b2847cc47ba855b6843c11a13e](https://github.com/voxelum/minecraft-launcher-core-node/commit/783daa03310f59b2847cc47ba855b6843c11a13e))
@@ -788,7 +788,7 @@
 
 - feat: remove got from @xmcl/installer and support segment download ([667cd78b491f7073a12e44d1f8d32f6e89108be8](https://github.com/voxelum/minecraft-launcher-core-node/commit/667cd78b491f7073a12e44d1f8d32f6e89108be8))
 - feat: adjust the fabric get version list API ([4a966a1084620490223c499752ab195e647d80db](https://github.com/voxelum/minecraft-launcher-core-node/commit/4a966a1084620490223c499752ab195e647d80db))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 3.0.3
@@ -808,7 +808,7 @@
 
 
 ## 3.0.1
-### @xmcl/core@2.1.3
+### @powerm1nt/xmcl-core@2.1.3
 #### Bug Fixes
 
 - fix: inverted validation result ([01b9866964f90aed9eb55d53fec178c464aacf23](https://github.com/voxelum/minecraft-launcher-core-node/commit/01b9866964f90aed9eb55d53fec178c464aacf23))
@@ -817,7 +817,7 @@
 
 - fix: wrong resourcepack info return ([a9b1359bccf436f73d96a4a09622970360df6c07](https://github.com/voxelum/minecraft-launcher-core-node/commit/a9b1359bccf436f73d96a4a09622970360df6c07))
 ### @xmcl/installer@2.6.7
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/model@1.0.12
 - Dependency @xmcl/resourcepack bump **patch**
 ### @xmcl/resource-manager@2.0.1
@@ -829,19 +829,19 @@
 #### Bug Fixes
 
 - fix: unify the error thrown ([6d3d5c79518305685316e81bf7f30cb0a0134972](https://github.com/voxelum/minecraft-launcher-core-node/commit/6d3d5c79518305685316e81bf7f30cb0a0134972))
-### @xmcl/unzip@1.2.0
+### @powerm1nt/xmcl-unzip@1.2.0
 #### Features
 
 - feat: add find entry ([0c509e151ba3c3a2af4924a76891dc0674402ead](https://github.com/voxelum/minecraft-launcher-core-node/commit/0c509e151ba3c3a2af4924a76891dc0674402ead))
 ### @xmcl/client@2.0.5
 - Dependency @xmcl/nbt bump **patch**
-### @xmcl/core@2.1.2
+### @powerm1nt/xmcl-core@2.1.2
 #### Bug Fixes
 
 - fix: clear fs deps on core and installer modules ([ff78d9bc8743fd39a7c0b08a794e9ec5adcf3af5](https://github.com/voxelum/minecraft-launcher-core-node/commit/ff78d9bc8743fd39a7c0b08a794e9ec5adcf3af5))
 - fix: correct parse of snapshot version ([fdf5600325546309b79e74e4699cbac3702125eb](https://github.com/voxelum/minecraft-launcher-core-node/commit/fdf5600325546309b79e74e4699cbac3702125eb))
 - fix: unify the error thrown ([6d3d5c79518305685316e81bf7f30cb0a0134972](https://github.com/voxelum/minecraft-launcher-core-node/commit/6d3d5c79518305685316e81bf7f30cb0a0134972))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@2.6.6
 #### Bug Fixes
 
@@ -849,12 +849,12 @@
 - fix: clear fs deps on core and installer modules ([ff78d9bc8743fd39a7c0b08a794e9ec5adcf3af5](https://github.com/voxelum/minecraft-launcher-core-node/commit/ff78d9bc8743fd39a7c0b08a794e9ec5adcf3af5))
 - fix: wrong platform to install jre #135 ([78d538d365a19256b27c07f891ec0488193dd3f3](https://github.com/voxelum/minecraft-launcher-core-node/commit/78d538d365a19256b27c07f891ec0488193dd3f3))
 - fix: unify the error thrown ([6d3d5c79518305685316e81bf7f30cb0a0134972](https://github.com/voxelum/minecraft-launcher-core-node/commit/6d3d5c79518305685316e81bf7f30cb0a0134972))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/system@2.0.0
 #### BREAKING CHANGES
 
 - BREAKING CHANGE: simplify API of resource-manager and system ([2ec473b35d8c7c14cbdf5971fc811f14fbb4eff0](https://github.com/voxelum/minecraft-launcher-core-node/commit/2ec473b35d8c7c14cbdf5971fc811f14fbb4eff0))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@2.0.6
 #### Bug Fixes
 
@@ -891,7 +891,7 @@
 
 - fix: prevent losing stacktrace by throwing actual Error ([005ecb3d55cb4419b16ed24dfb8d01d91f12d9d8](https://github.com/voxelum/minecraft-launcher-core-node/commit/005ecb3d55cb4419b16ed24dfb8d01d91f12d9d8))
 - fix: rollback file-type & long ([f7f963b0fe50f46280dc604ac86e9483f168837e](https://github.com/voxelum/minecraft-launcher-core-node/commit/f7f963b0fe50f46280dc604ac86e9483f168837e))
-### @xmcl/core@2.1.1
+### @powerm1nt/xmcl-core@2.1.1
 #### Bug Fixes
 
 - fix: correct the uuid usage for new version ([d33ad313eecb95393d8ba710b34f9f9058425bf0](https://github.com/voxelum/minecraft-launcher-core-node/commit/d33ad313eecb95393d8ba710b34f9f9058425bf0))
@@ -905,7 +905,7 @@
 - fix: rollback file-type & long ([f7f963b0fe50f46280dc604ac86e9483f168837e](https://github.com/voxelum/minecraft-launcher-core-node/commit/f7f963b0fe50f46280dc604ac86e9483f168837e))
 - Dependency @xmcl/nbt bump **patch**
 ### @xmcl/installer@2.6.5
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/server-info@2.0.2
 - Dependency @xmcl/nbt bump **patch**
 ### @xmcl/world@1.1.0
@@ -916,7 +916,7 @@
 
 
 ## 2.7.0
-### @xmcl/core@2.1.0
+### @powerm1nt/xmcl-core@2.1.0
 #### Features
 
 - feat: add resolveFromPath ([890f70aa4f492d97e5e7513afcfc71b424962bf2](https://github.com/voxelum/minecraft-launcher-core-node/commit/890f70aa4f492d97e5e7513afcfc71b424962bf2))
@@ -931,7 +931,7 @@
 - fix: correct the task name ([408d35d5f77bc6da558d45ac74e308014f8802ae](https://github.com/voxelum/minecraft-launcher-core-node/commit/408d35d5f77bc6da558d45ac74e308014f8802ae))
 - fix: expose error to outer ([5c5a0fa89605b1a0babe2fc5e681134cd749bf4f](https://github.com/voxelum/minecraft-launcher-core-node/commit/5c5a0fa89605b1a0babe2fc5e681134cd749bf4f))
 - fix: expose post postProcess task ([2933d576feff0c4e0aa66b4a242903ea20b45d7e](https://github.com/voxelum/minecraft-launcher-core-node/commit/2933d576feff0c4e0aa66b4a242903ea20b45d7e))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 2.6.3
@@ -967,7 +967,7 @@
 
 
 ## 2.6.0
-### @xmcl/unzip@1.1.3
+### @powerm1nt/xmcl-unzip@1.1.3
 #### Bug Fixes
 
 - fix: remove dead code & force bump ([8b1a4122b021f51fff8482d2705efdbc60b06d65](https://github.com/voxelum/minecraft-launcher-core-node/commit/8b1a4122b021f51fff8482d2705efdbc60b06d65))
@@ -975,8 +975,8 @@
 #### Bug Fixes
 
 - fix: shorten the name and use correct export ([b40af8a46cbf316883491445d10493ea9ec6ef1b](https://github.com/voxelum/minecraft-launcher-core-node/commit/b40af8a46cbf316883491445d10493ea9ec6ef1b))
-### @xmcl/core@2.0.7
-- Dependency @xmcl/unzip bump **patch**
+### @powerm1nt/xmcl-core@2.0.7
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@2.6.0
 #### Features
 
@@ -984,10 +984,10 @@
 #### Bug Fixes
 
 - fix: add progress status and mark beta ([4d6dbe96397b3e16b179343954c8b8928c6cc358](https://github.com/voxelum/minecraft-launcher-core-node/commit/4d6dbe96397b3e16b179343954c8b8928c6cc358))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/system@1.0.9
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@2.0.5
 - Dependency @xmcl/system bump **patch**
 ### @xmcl/resourcepack@1.0.10
@@ -1010,7 +1010,7 @@
 #### Bug Fixes
 
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
-### @xmcl/unzip@1.1.2
+### @powerm1nt/xmcl-unzip@1.1.2
 #### Bug Fixes
 
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
@@ -1036,11 +1036,11 @@
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
 - Dependency @xmcl/nbt bump **patch**
 - Dependency @xmcl/text-component bump **patch**
-### @xmcl/core@2.0.6
+### @powerm1nt/xmcl-core@2.0.6
 #### Bug Fixes
 
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@2.5.0
 #### Features
 
@@ -1050,7 +1050,7 @@
 
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
 - fix: correctly overwrite ([84559efd2a3047e732a1c70b74a52aef853cf004](https://github.com/voxelum/minecraft-launcher-core-node/commit/84559efd2a3047e732a1c70b74a52aef853cf004))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/forge-site-parser bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/java-installer@0.1.4
@@ -1064,7 +1064,7 @@
 
 - fix: use rollup to build and fix wrong import module ([c1b5582ecafc4cdfe96481b305013850d9e13cb5](https://github.com/voxelum/minecraft-launcher-core-node/commit/c1b5582ecafc4cdfe96481b305013850d9e13cb5))
 - fix: compatible with old njs ([16cc85c0c8456649d275d4080ef5d27572ff3f76](https://github.com/voxelum/minecraft-launcher-core-node/commit/16cc85c0c8456649d275d4080ef5d27572ff3f76))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@2.0.4
 #### Bug Fixes
 
@@ -1100,7 +1100,7 @@
 
 
 ## 2.4.1
-### @xmcl/core@2.0.5
+### @powerm1nt/xmcl-core@2.0.5
 #### Bug Fixes
 
 - fix: authlib-injector not correctly work ([d1b117a0cb36102151ead8bdb9d0ec66b1c94e5f](https://github.com/voxelum/minecraft-launcher-core-node/commit/d1b117a0cb36102151ead8bdb9d0ec66b1c94e5f))
@@ -1110,11 +1110,11 @@
 - fix: use agent on curseforge query ([b7dc132c2223a9835dfec98328ab9ecf6e36ee6a](https://github.com/voxelum/minecraft-launcher-core-node/commit/b7dc132c2223a9835dfec98328ab9ecf6e36ee6a))
 - fix: batch the query url for curseforge ([3d5e4079bfb9adbf0c1cc7a32899b35da7b1c4cb](https://github.com/voxelum/minecraft-launcher-core-node/commit/3d5e4079bfb9adbf0c1cc7a32899b35da7b1c4cb))
 - fix: normalize the downloader option ([e18b5df61287b171c63382725851ef69bfd0bb75](https://github.com/voxelum/minecraft-launcher-core-node/commit/e18b5df61287b171c63382725851ef69bfd0bb75))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 2.4.0
-### @xmcl/unzip@1.1.1
+### @powerm1nt/xmcl-unzip@1.1.1
 #### Bug Fixes
 
 - fix: skip dir for lazy unzip ([e027bd4fe99d35008a88f07fb938bdd07f8423e7](https://github.com/voxelum/minecraft-launcher-core-node/commit/e027bd4fe99d35008a88f07fb938bdd07f8423e7))
@@ -1122,11 +1122,11 @@
 #### Bug Fixes
 
 - fix: remove got ([a8702a16cb14b74b44cb24ef63fe83a99ad1c63b](https://github.com/voxelum/minecraft-launcher-core-node/commit/a8702a16cb14b74b44cb24ef63fe83a99ad1c63b))
-### @xmcl/core@2.0.4
+### @powerm1nt/xmcl-core@2.0.4
 #### Bug Fixes
 
 - fix: extract the resolveLibrary api ([1bc71ef4594af92d82bbd991c634ef19c67d430d](https://github.com/voxelum/minecraft-launcher-core-node/commit/1bc71ef4594af92d82bbd991c634ef19c67d430d))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@2.4.0
 #### Features
 
@@ -1136,9 +1136,9 @@
 #### Bug Fixes
 
 - fix: wrong forge maven assigning ([74a931d4c3416a77ce5ac85a9b40f680c5ad6aef](https://github.com/voxelum/minecraft-launcher-core-node/commit/74a931d4c3416a77ce5ac85a9b40f680c5ad6aef))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/system@1.0.7
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@2.0.3
 - Dependency @xmcl/system bump **patch**
 ### @xmcl/resourcepack@1.0.8
@@ -1182,7 +1182,7 @@
 
 
 ## 2.3.0
-### @xmcl/unzip@1.1.0
+### @powerm1nt/xmcl-unzip@1.1.0
 #### Features
 
 - feat: add option to hook and replace to extract ([907741f728584b2045b879344edd48e6d59deb84](https://github.com/voxelum/minecraft-launcher-core-node/commit/907741f728584b2045b879344edd48e6d59deb84))
@@ -1190,13 +1190,13 @@
 #### Bug Fixes
 
 - fix(task): stupid uncaught error ([eafd11f0b9226b585c48f919d104ef346d17cc0d](https://github.com/voxelum/minecraft-launcher-core-node/commit/eafd11f0b9226b585c48f919d104ef346d17cc0d))
-### @xmcl/core@2.0.3
+### @powerm1nt/xmcl-core@2.0.3
 #### Bug Fixes
 
 - fix: wrong import from other packages ([e4716cbd8bebf03c1526018bed60e34aae3b64c5](https://github.com/voxelum/minecraft-launcher-core-node/commit/e4716cbd8bebf03c1526018bed60e34aae3b64c5))
 - fix: make it compatible with older electron ([196f3dcaea53ddd8c7068eec6fdd09ac4336d678](https://github.com/voxelum/minecraft-launcher-core-node/commit/196f3dcaea53ddd8c7068eec6fdd09ac4336d678))
 - fix: adapt to new unzip api ([24ad2801dcd3ff0c67aa294e965437f45f80597c](https://github.com/voxelum/minecraft-launcher-core-node/commit/24ad2801dcd3ff0c67aa294e965437f45f80597c))
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/installer@2.3.0
 #### Features
 
@@ -1207,7 +1207,7 @@
 
 - fix: wrong import from other packages ([e4716cbd8bebf03c1526018bed60e34aae3b64c5](https://github.com/voxelum/minecraft-launcher-core-node/commit/e4716cbd8bebf03c1526018bed60e34aae3b64c5))
 - fix: simplify the default downloader ([a4699e6388dfcdee1521104e38c587ec8f433f6e](https://github.com/voxelum/minecraft-launcher-core-node/commit/a4699e6388dfcdee1521104e38c587ec8f433f6e))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/java-installer@0.1.2
 #### Bug Fixes
@@ -1215,7 +1215,7 @@
 - fix: make it compatible with older electron ([196f3dcaea53ddd8c7068eec6fdd09ac4336d678](https://github.com/voxelum/minecraft-launcher-core-node/commit/196f3dcaea53ddd8c7068eec6fdd09ac4336d678))
 - Dependency @xmcl/task bump **patch**
 ### @xmcl/system@1.0.6
-- Dependency @xmcl/unzip bump **patch**
+- Dependency @powerm1nt/xmcl-unzip bump **patch**
 ### @xmcl/mod-parser@2.0.2
 - Dependency @xmcl/system bump **patch**
 ### @xmcl/resourcepack@1.0.7
@@ -1277,7 +1277,7 @@
 #### Features
 
 - feat: use style object instead of stream to release ([f2c5d951c6f6752801afc9bb79c5d9804d3d735a](https://github.com/voxelum/minecraft-launcher-core-node/commit/f2c5d951c6f6752801afc9bb79c5d9804d3d735a))
-### @xmcl/core@2.0.2
+### @powerm1nt/xmcl-core@2.0.2
 #### Bug Fixes
 
 - fix: the wrong native metadata ([8789ca204cd895d612c743566b5b9792f3d42bdb](https://github.com/voxelum/minecraft-launcher-core-node/commit/8789ca204cd895d612c743566b5b9792f3d42bdb))
@@ -1295,7 +1295,7 @@
 - fix: minimize the required version ([9aa4cef104976adfa4a9236737d9da9c20cc4dac](https://github.com/voxelum/minecraft-launcher-core-node/commit/9aa4cef104976adfa4a9236737d9da9c20cc4dac))
 - fix: not force install provide full info ([27023065e31404b149cd34c928a1a3ec68dd6d89](https://github.com/voxelum/minecraft-launcher-core-node/commit/27023065e31404b149cd34c928a1a3ec68dd6d89))
 - fix: extract the default downloader ([6146bf80e4950a57d809dcf12a5633f569b4dcfd](https://github.com/voxelum/minecraft-launcher-core-node/commit/6146bf80e4950a57d809dcf12a5633f569b4dcfd))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 
 
 ## 2.0.0
@@ -1303,7 +1303,7 @@
 #### Bug Fixes
 
 - fix(client): fetch server status return wrong value (#77) ([e51a2bd32ee9b22f04093e1cf4983e85b782a96c](https://github.com/voxelum/minecraft-launcher-core-node/commit/e51a2bd32ee9b22f04093e1cf4983e85b782a96c))
-### @xmcl/core@2.0.1
+### @powerm1nt/xmcl-core@2.0.1
 #### Bug Fixes
 
 - fix: remove the deprecated field ([09c942bf9b72018595bfb4b98561eeb82dea49a1](https://github.com/voxelum/minecraft-launcher-core-node/commit/09c942bf9b72018595bfb4b98561eeb82dea49a1))
@@ -1325,7 +1325,7 @@
 #### Bug Fixes
 
 - fix: remove the deprecated field ([09c942bf9b72018595bfb4b98561eeb82dea49a1](https://github.com/voxelum/minecraft-launcher-core-node/commit/09c942bf9b72018595bfb4b98561eeb82dea49a1))
-- Dependency @xmcl/core bump **patch**
+- Dependency @powerm1nt/xmcl-core bump **patch**
 ### @xmcl/model@1.0.6
 - Dependency @xmcl/resourcepack bump **patch**
 ### @xmcl/resource-manager@1.0.6

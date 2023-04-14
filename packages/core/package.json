@@ -1,6 +1,6 @@
 {
-  "name": "@xmcl/core",
-  "version": "2.11.0",
+  "name": "@powerm1nt/xmcl-core",
+  "version": "2.11.1",
   "main": "./index.ts",
   "description": "Minecraft version parsing and game launching.",
   "engines": {
@@ -17,7 +17,7 @@
     "module": "./dist/index.mjs"
   },
   "dependencies": {
-    "@xmcl/unzip": "workspace:^*"
+    "@powerm1nt/xmcl-unzip": "workspace:^*"
   },
   "repository": {
     "type": "git",
@@ -39,7 +39,6 @@
   "homepage": "https://github.com/Voxelum/minecraft-launcher-core-node#readme",
   "devDependencies": {
     "@types/node": "~18.15.11",
-    "@xmcl/eslint-config": "workspace:^*",
     "esbuild": "^0.17.14",
     "eslint": "^8.37.0",
     "typescript": "^5.0.3"
